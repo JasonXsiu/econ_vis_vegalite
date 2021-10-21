@@ -1,50 +1,92 @@
 /* cspell:disable-file */
-html
-{
+
+html {
     height: 100%;
 }
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td
-{
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
     margin: 0;
     padding: 0;
 }
-table
-{
+
+table {
     border-collapse: collapse;
     border-spacing: 0;
-
 }
-fieldset, img
-{
+
+fieldset,
+img {
     border: 0;
 }
-address, caption, cite, code, dfn, em, strong, th, var
-{
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
     font-style: normal;
     font-weight: normal;
 }
-ol, ul
-{
+
+ol,
+ul {
     list-style: none;
 }
-caption, th
-{
+
+caption,
+th {
     text-align: left;
 }
-h1, h2, h3, h4, h5, h6
-{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: 100%;
     font-weight: normal;
 }
-q:before, q:after
-{
+
+q:before,
+q:after {
     content: '';
 }
-abbr, acronym
-{
+
+abbr,
+acronym {
     border: 0;
 }
+
+
 /*reset.css*/
+
 
 /* webkit printing magic: print all background colors */
 
@@ -839,7 +881,6 @@ blockquote {
     font-family: 'Century Gothic', sans-serif;
     text-align: justify;
     text-justify: inter-word;
-    
 }
 
 .article-subtitle {
@@ -872,29 +913,31 @@ blockquote {
     font-weight: 600;
 }
 
-strong , #bold{
-    font-size :17px ;
+strong,
+#bold {
+    font-size: 17px;
     font-family: 'Aurulent Sans', sans-serif;
     text-justify: inter-word;
 }
-i{
+
+i {
     font-family: 'Aurulent Sans', sans-serif;
-font-size: medium;
-text-justify: inter-word;
+    font-size: medium;
+    text-justify: inter-word;
 }
-.bodytext_2_column{
+
+.bodytext_2_column {
     font-family: 'Century Gothic', sans-serif;
     text-align: justify;
     text-justify: inter-word;
     column-count: 2;
-
 }
 
-.bodytext_3_column{
+.bodytext_3_column {
     font-family: 'Century Gothic', sans-serif;
     text-align: justify;
     text-justify: inter-word;
-columns: 300px 3;
+    columns: 300px 3;
 }
 
 header {
@@ -902,7 +945,7 @@ header {
     block-size: 150px;
 }
 
-.question_text{
+.question_text {
     justify-content: left;
     /* align horizontal */
     align-items: center;
@@ -911,7 +954,24 @@ header {
     margin-top: 1.5rem;
     font-weight: 550;
 }
-a{color: #008fd5;}
 
+a {
+    color: #008fd5;
+}
 
-
+.credit {
+    display: flex;
+    justify-content: left;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    white-space: pre-wrap;
+    font-weight: 500;
+    font-style: normal;
+}
